@@ -126,8 +126,8 @@ h6 {
 
 #intro {
   width: 100%;
-  height: 100vh;
-  background: linear-gradient(45deg, rgba(255, 128, 32, 0.8), rgba(255, 165, 30, 0.8)), url("../img/intro-bg.jpg") center top no-repeat;
+  height: 85vh;
+  background: linear-gradient(45deg, rgba(255, 128, 32, 0.8), rgba(255, 165, 30, 0.8)), url("../img/lala.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -135,7 +135,7 @@ h6 {
 #intro .intro-text {
   position: absolute;
   left: 0;
-  top: 60px;
+  top: 110px;
   right: 0;
   height: calc(50% - 60px);
   display: -webkit-box;
@@ -555,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #features {
   background: #fff;
-  padding: 60px 0 0 0;
+  padding: 60px 0 40px 0;
   overflow: hidden;
 }
 
@@ -574,7 +574,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .icon {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 #features .icon i {
@@ -652,8 +652,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features i:before {
-  background: rgb(255, 165, 30);
-  background: linear-gradient(45deg, rgb(255, 165, 30) 0%, rgb(255, 128, 32) 100%);
+  background: rgb(214, 223, 34);
+  background: linear-gradient(45deg, rgb(140, 200, 53) 0%, rgb(214, 223, 34) 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -671,12 +671,33 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 30px 30px 0;
 }
 
+
+#advanced-features .cta-btnn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid rgb(140, 200, 53);
+  color: rgb(140, 200, 53);
+}
+
+#advanced-features .cta-btnn:hover {
+  background: rgb(140, 200, 53);
+  border: 2px solid rgb(140, 200, 53);
+  color: rgb(255, 255, 255);
+}
+
 /* Call To Action Section
 --------------------------------*/
 
 #call-to-action {
   overflow: hidden;
-  background: linear-gradient(rgba(29, 200, 205, 0.65), rgba(29, 205, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(45deg, rgba(140, 200, 53, 0.7), rgba(214, 223, 34, 0.7)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
@@ -706,8 +727,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: rgb(255, 165, 30);
-  border: 2px solid rgb(255, 165, 30);
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(140, 200, 53);
 }
 
 /* More Features Section
@@ -1170,6 +1192,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #call-to-action .cta-btn-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  #advanced-features .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

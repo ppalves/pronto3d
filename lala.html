@@ -26,6 +26,8 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <script src="js/mail.js"></script>
+
   <!-- =======================================================
     Theme Name: Avilon
     Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
@@ -85,11 +87,11 @@
   <section id="intro">
 
     <div class="intro-text">
-      <h2>Welcome to Avilon</h2>
-      <p>We are team of talanted designers making websites with Bootstrap</p>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <h2>PRONTO 3D</h2>
+      <p>Laboratório de Prototipagem e Novas Tecnologias Orientadas ao 3D</p>
+      <a href="#about" onclick="enviaEmail()" class="btn-get-started scrollto">Get Started</a>
     </div>
-
+<!--
     <div class="product-screens">
 
       <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
@@ -104,7 +106,7 @@
         <img src="img/product-screen-3.png" alt="">
       </div>
 
-    </div>
+    </div> -->
 
   </section><!-- #intro -->
 
@@ -116,11 +118,12 @@
     <section id="about" class="section-bg">
       <div class="container-fluid">
         <div class="section-header">
-          <h3 class="section-title">About Us</h3>
+          <h3 class="section-title">Sobre Nós</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
-            sunt in culpa qui officia deserunt mollit anim id est laborum
+              Espaço de ensino, pesquisa e extensão na área da materialização da forma <br>
+              por meio de técnicas automatizadas,
+              tais como impressão 3D, corte laser e usinagem em máquinas CNC.
           </p>
         </div>
 
@@ -130,21 +133,31 @@
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elite storium paralate</h2>
-            <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+            <!-- <h2>O <b>PRONTO3D - Laboratório de Prototipagem e Novas Tecnologias Orientadas ao 3D</b> - FABLAB</h2>
+            <h3>consiste em um espaço de ensino, pesquisa e extensão na área da materialização da forma por meio de técnicas automatizadas, tais como impressão 3D, corte laser e usinagem em máquinas CNC.</h3> -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                O laboratório, do curso de Design da UFSC em Florianópolis, é formado por professores pesquisadores, alunos de graduação
+                e de pós-graduação, participantes de programas de iniciação científica e similares, além de profissionais envolvidos em
+                projetos que se desdobram em aplicações de atividades de pesquisa e extensão. O laboratório faz parte de uma Rede de laboratórios
+               de prototipagem rápida e fabricação digital, denominada REDE PRONTO3D que tem como objetivo a estruturação de centros estrategicamente
+                localizados no estado de Santa Catarina, atualmente nas cidades de Criciúma, Chapecó e Lages, A REDE PRONTO3D atende cursos de Design,
+               Arquitetura, Engenharias, bem como todas as áreas que envolvamcriação, desenvolvimento e produção de modelos, protótipos, maquetes e
+                produtos em escala real, auxiliando as diferentes etapas do processo de projeto. 
+            </p>
+            <p>
+                A REDE PRONTO 3D visa a expansão da tecnologia de ponta aliada à criatividade em projetos inovadores elevando o estado de Santa Catarina
+                a um nível competitivo e inovador dentre universidades brasileiras e internacionais. Sua estratégia baseia-se em 5 pilares que sustentam
+                suas características básicas: 
             </p>
 
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Lúdico</li>
+              <li><i class="ion-android-checkmark-circle"></i> Eficiente</li>
+              <li><i class="ion-android-checkmark-circle"></i> Colaborativo</li>
+              <li><i class="ion-android-checkmark-circle"></i> Criativo</li>
+              <li><i class="ion-android-checkmark-circle"></i> Versátil</li>
             </ul>
 
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Libero justo laoreet sit amet cursus sit amet dictum sit. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec
-            </p>
           </div>
         </div>
 
@@ -161,13 +174,13 @@
 
           <div class="col-lg-8 offset-lg-4">
             <div class="section-header wow fadeIn" data-wow-duration="1s">
-              <h3 class="section-title">Product Featuress</h3>
+              <h3 class="section-title">A rede</h3>
               <span class="section-divider"></span>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/product-features.png" alt="" class="wow fadeInLeft">
+            <img src="img/icons/network.png" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -175,50 +188,95 @@
             <div class="row">
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
+                <h4 class="title"><a href="">Florianópolis</a></h4>
+                <p class="description">Localizada na Universidade Federal de Santa Catarina, o pólo de Florianópolis é um FABLAB certificado pelo MIT desde 2016. Sob a gestão no curso de Design,
+                   o laboratório atende a diversos cursos da universidade, com a coordenação da prof. Dra. Regiane Pupo.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
+                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
                 <h4 class="title"><a href="">Dolor Sitema</a></h4>
                 <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
+                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
                 <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
                 <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
               </div>
               <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
+                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
                 <h4 class="title"><a href="">Magni Dolores</a></h4>
                 <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
               </div>
             </div>
-
+            
           </div>
+          
+        </div>
+        
+      </div>
+      
+    </section><!-- #features -->
 
+    
+    <!--==========================
+      Call To Action Section
+    ============================-->
+    <section id="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Tecnologias</h3>
+            <p class="cta-text"> A materialização da forma se dá por meio da fabricação digital, com meios de produção automatizada em tecnologias aditiva, subtrativa e formativa.
+              </p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
         </div>
 
       </div>
+    </section><!-- #call-to-action -->
 
-    </section><!-- #features -->
 
     <!--==========================
       Product Advanced Featuress Section
     ============================-->
     <section id="advanced-features">
 
+        <div class="features-row">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <img class="advanced-feature-img-left" src="img/icons/pretos/3d-printer.png" width="35%" alt="">
+                  <div class="wow fadeInRight">
+                    <h2 style="margin-bottom: 2rem">impressão 3D</h2>
+                    <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                    <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com 4 impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA ou ABS para a obtenção de modelos, de forma aditiva, com tecnologia nacional e estrangeira.</p>
+                    <i class="ion-ios-calendar-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                    <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em impressão 3D, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possivel.</p>
+                    <div class=" cta-btn-container text-center">
+                        <a class="cta-btnn align-middle" href="#">Agende seu horario</a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
       <div class="features-row section-bg">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/3d-printer.png" width="35%" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/laser.png" width="35%" alt="">
               <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>Corte Laser</h2>
+                <p>O corte laser é a tecnologia subtrativa que corta diversos materiais tais como papel, eva, compensado, papelão, cortiça, tecidos, dentre outros, de diversas espessuras.</p>
+                <p>A utilização deste serviço é feita por meio de agendamento, onde vc terá todas as instruções de uso.</p>
+                <div class=" cta-btn-container text-center float-left">
+                    <a class="cta-btnn align-middle" href="#">Agende seu horario</a>
+                </div>
               </div>
             </div>
           </div>
@@ -229,15 +287,13 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-left" src="img/icons/pretos/laser.png" width="35%" alt="">
+              <img class="advanced-feature-img-left" src="img/icons/pretos/cnc.png" width="35%" alt="">
               <div class="wow fadeInRight">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
+                <h2>CNC de grande porte</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">A CNC - Computer Numeric Control - do PRONTO3D FLorianópolis, tem dimensões 3,00 x 2,00 x 0,15m e é utilizada para a fabricação de elementos de grande porte, tanto de perfilado (corte) quanto de desbaste de material.</p>
+                <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Utilizando diversos materiais, o uso desta tecnologia depende de consulta ao depto responsável pela execuçao dos processos prévio. Desta forma, para uso deste equipamento, entre em contato através do email <b style="color: rgb(140, 200, 53)">pronto3d@gmail.com</b> e a equipe do PRONTO lhe auxiliará.</p>
               </div>
             </div>
           </div>
@@ -250,35 +306,35 @@
             <div class="col-12">
               <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/milling-machine.png" width="35%" alt="">
               <div class="wow fadeInLeft">
-                <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <i class="ion-ios-albums-outline"></i>
-                <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <h2>CNC milling</h2>
+                <p>O equipamento de milling tem dimensões 203,2mm x 152,4mm x 70mm e é utilizada para pequenos desbastes em diversos materiais.</p>
+                <p>Para uso deste equipamento, entre em contato através do email <b style="color: rgb(140, 200, 53)">pronto3d@gmail.com</b> e a equipe do PRONTO lhe auxiliará.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section><!-- #advanced-features -->
 
-    <!--==========================
-      Call To Action Section
-    ============================-->
-    <section id="call-to-action">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+      <div class="features-row">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <img class="advanced-feature-img-left" src="img/icons/pretos/molding-machine.png" width="35%" alt="">
+                <div class="wow fadeInRight">
+                  <h2>Vaccum Forming</h2>
+                  <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                  <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+    </section><!-- #advanced-features -->
 
-      </div>
-    </section><!-- #call-to-action -->
 
     <!--==========================
       More Features Section
@@ -684,7 +740,7 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="" method="post" role="form" class="contactForm" id="contact_form">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -703,7 +759,7 @@
                   <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
-                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button  type="submit" title="Send Message">Send Message</button></div>
               </form>
             </div>
           </div>
@@ -764,6 +820,62 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+
+
+  <script>
+      jQuery("#contact_form").submit(function(e) {
+        e.preventDefault();
+        var formData = jQuery("#contact_form").serializeArray();
+  //----------------------------------------------------------------------------------------------------------
+        var embranco = 1;
+        for (var i = 0 ; i < 4 ; i++){
+          if (Object.values(formData[i])[1] == ""){
+            alert("por favor, prencha todos os campos adequadamente");
+            embranco = 0;
+          }
+        }
+        if (embranco == 0){
+          return;
+        }
+  //-----------------------------------------------------------------------------------------------------------
+        //Validar se esse cara tem uma chave sem valor e dar só prosseguir se estiver tudo preenchido
+              var formJSON = getFormJSON(formData);
+              jQuery.ajax({
+                  url: "./mail/Contact.php",
+                  type: "POST",
+          dataType: "text",
+                  data: {fields: JSON.stringify(formJSON)},
+                  success: function(data) {
+  //------------------------------------------------------------------------------------------------------------
+            //Limpar os campos de texto e mostrar mensagem de sucesso
+                  document.getElementById("contact_form").reset();
+                  alert("email enviado com sucesso, obrigado!!!");
+                  },
+                  error: function(err) {
+            alert("Houve algum problem com o envio de email, você poderia tentar denovo?");
+            var error = JSON.parse(err.responseText);
+            //Fazer o que quiser com esses caras depois
+            console.log(error.code);
+                      console.log(error.message);
+                  }
+              });
+      });
+  
+          function getFormJSON(formArray) {
+              var obj = {};
+              jQuery.each(formArray, function(i, pair) {
+                  var cObj = obj,
+                      pObj, cpName;
+                  jQuery.each(pair.name.split("."), function(i, pName) {
+                      pObj = cObj;
+                      cpName = pName;
+                      cObj = cObj[pName] ? cObj[pName] : (cObj[pName] = {});
+                  });
+                  pObj[cpName] = pair.value;
+              });
+              return obj;
+          }
+      </script>
 
 </body>
 </html>
