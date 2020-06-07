@@ -1112,6 +1112,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
+#contact .form #loadingIcon {
+  color: rgb(255, 165, 30);
+  border: 1px solid rgb(255, 165, 30);
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
 #contact .form #errormessage {
   color: red;
   display: none;
@@ -1123,7 +1133,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage.show,
+#contact .form #loadingIcon.show,
 #contact .form #errormessage.show,
+#contact .form .validation .show,
 #contact .form .show {
   display: block;
 }
@@ -1131,10 +1143,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form .validation {
   color: red;
   display: none;
-  margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
 }
+
+#formSendButton.disabled {
+  background: linear-gradient(45deg, rgba(255, 128, 32, 0.3), rgba(255, 165, 30, 0.3)) !important;
+  cursor: inherit !important;
+}
+
 
 #contact .form input,
 #contact .form textarea {

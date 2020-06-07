@@ -699,28 +699,32 @@
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
-              <div id="errormessage"></div>
+              <div id="sendmessage">Seu email foi enviado, obrigado!</div>
+              <div id="errormessage">Ocorreu um erro na hora de enviar o email, tente novamente</div>
+              <div id="loadingIcon">
+                <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                <span class="sr-only">Loading...</span>
+              </div>
               <form action="" method="post" role="form" class="contactForm" id="contact_form">
                 <div class="form-row">
                   <div class="form-group col-lg-6">
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                    <div class="validation"></div>
+                    <div class="validation name">Por favor insira um nome valido</div>
                   </div>
                   <div class="form-group col-lg-6">
                     <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                    <div class="validation"></div>
+                    <div class="validation email">Por favor insira um email valido</div>
                   </div>
                 </div>
                 <div class="form-group">
                   <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                  <div class="validation"></div>
+                  <div class="validation subject">Por favor insira um assunto na mensagem</div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+                  <textarea class="form-control" name="message" rows="5" id="message" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation message">Por favor escreva algo no corpo da mensagem</div>
                 </div>
-                <div class="text-center"><button  type="submit" title="Send Message">Send Message</button></div>
+                <div class="text-center"><button type="submit" title="Send Message" id="formSendButton">Enviar</button></div>
               </form>
             </div>
           </div>
@@ -787,53 +791,63 @@
       jQuery("#contact_form").submit(function(e) {
         e.preventDefault();
         var formData = jQuery("#contact_form").serializeArray();
-  //----------------------------------------------------------------------------------------------------------
-        var embranco = 1;
+        var embranco = 1;        
+        console.log(formData);
         for (var i = 0 ; i < 4 ; i++){
-          if (Object.values(formData[i])[1] == ""){
-            alert("por favor, prencha todos os campos adequadamente");
+          if (formData[i].value == ""){
+            jQuery(".validation." + formData[i].name).css('display', 'block')
             embranco = 0;
           }
         }
         if (embranco == 0){
           return;
         }
-  //-----------------------------------------------------------------------------------------------------------
-        //Validar se esse cara tem uma chave sem valor e dar só prosseguir se estiver tudo preenchido
-              var formJSON = getFormJSON(formData);
-              jQuery.ajax({
-                  url: "./mail/Contact.php",
-                  type: "POST",
-          dataType: "text",
-                  data: {fields: JSON.stringify(formJSON)},
-                  success: function(data) {
-  //------------------------------------------------------------------------------------------------------------
-            //Limpar os campos de texto e mostrar mensagem de sucesso
-                  document.getElementById("contact_form").reset();
-                  alert("email enviado com sucesso, obrigado!!!");
-                  },
-                  error: function(err) {
-            alert("Houve algum problem com o envio de email, você poderia tentar denovo?");
-            var error = JSON.parse(err.responseText);
-            //Fazer o que quiser com esses caras depois
-            console.log(error.code);
-                      console.log(error.message);
-                  }
-              });
-      });
   
-          function getFormJSON(formArray) {
-              var obj = {};
-              jQuery.each(formArray, function(i, pair) {
-                  var cObj = obj,
-                      pObj, cpName;
-                  jQuery.each(pair.name.split("."), function(i, pName) {
-                      pObj = cObj;
-                      cpName = pName;
-                      cObj = cObj[pName] ? cObj[pName] : (cObj[pName] = {});
-                  });
-                  pObj[cpName] = pair.value;
-              });
-              return obj;
+        var formJSON = getFormJSON(formData);
+        jQuery("#formSendButton").prop("disabled",true);
+        jQuery("#formSendButton").addClass("disabled");
+        jQuery("#loadingIcon").addClass("show");
+        jQuery.ajax({
+          url: "./mail/Contact.php",
+          type: "POST",
+          dataType: "text",
+          data: {fields: JSON.stringify(formJSON)},
+          success: function(data) {
+            document.getElementById("contact_form").reset();
+            jQuery("#loadingIcon").removeClass("show");
+            jQuery("#sendmessage").addClass("show");
+            jQuery("#formSendButton").prop("disabled",false);
+            jQuery("#formSendButton").removeClass("disabled");
+            setTimeout(() => {
+              jQuery("#sendmessage").removeClass("show");
+            }, 4000);
+          },
+          error: function(err) {
+            jQuery("#loadingIcon").removeClass("show");
+            jQuery("#errormessage").addClass("show");
+            var error = JSON.parse(err.responseText);
+            console.log(error.code);
+            console.log(error.message);
+            jQuery("#formSendButton").prop("disabled",false);
+            jQuery("#formSendButton").removeClass("disabled");
+            setTimeout(() => {
+              jQuery("#errormessage").removeClass("show");
+            }, 4000);
           }
+        });
+      });
+
+      function getFormJSON(formArray) {
+        var obj = {};
+        jQuery.each(formArray, function(i, pair) {
+          var cObj = obj, pObj, cpName;
+          jQuery.each(pair.name.split("."), function(i, pName) {
+            pObj = cObj;
+            cpName = pName;
+            cObj = cObj[pName] ? cObj[pName] : (cObj[pName] = {});
+          });
+          pObj[cpName] = pair.value;
+        });
+        return obj;
+      }
       </script>
