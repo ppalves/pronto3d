@@ -82,9 +82,9 @@
           <h3 class="section-title">Sobre Nós</h3>
           <span class="section-divider"></span>
           <p class="section-description">
-              Espaço de ensino, pesquisa e extensão na área da materialização da forma <br>
-              por meio de técnicas automatizadas,
-              tais como impressão 3D, corte laser e usinagem em máquinas CNC.
+          Espaço de ensino, pesquisa e extensão na área da materialização da forma
+por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e usinagem em máquinas CNC.
+
           </p>
         </div>
 
@@ -97,15 +97,14 @@
             <!-- <h2>O <b>PRONTO3D - Laboratório de Prototipagem e Novas Tecnologias Orientadas ao 3D</b> - FABLAB</h2>
             <h3>consiste em um espaço de ensino, pesquisa e extensão na área da materialização da forma por meio de técnicas automatizadas, tais como impressão 3D, corte laser e usinagem em máquinas CNC.</h3> -->
             <p>
-                O laboratório, do curso de Design da UFSC em Florianópolis, é formado por professores pesquisadores, alunos de graduação
-                e de pós-graduação, participantes de programas de iniciação científica e similares, além de profissionais envolvidos em
-                projetos que se desdobram em aplicações de atividades de pesquisa e extensão. O laboratório faz parte de uma Rede de laboratórios
-               de prototipagem rápida e fabricação digital, denominada REDE PRONTO3D que tem como objetivo a estruturação de centros estrategicamente
-                localizados no estado de Santa Catarina, atualmente nas cidades de Criciúma, Chapecó e Lages, A REDE PRONTO3D atende cursos de Design,
-               Arquitetura, Engenharias, bem como todas as áreas que envolvamcriação, desenvolvimento e produção de modelos, protótipos, maquetes e
-                produtos em escala real, auxiliando as diferentes etapas do processo de projeto. 
+            O laboratório, do curso de Design da UFSC em Florianópolis, é formado por professores pesquisadores, alunos de graduação e de pós-graduação,
+             participantes de programas de iniciação científica e similares, além de profissionais envolvidos em projetos que se desdobram em aplicações
+              de atividades de pesquisa e extensão. As atividades do laboratório visam a expansão da tecnologia de ponta aliada à criatividade em projetos
+               inovadores e oficinas de capacitação, elevando o estado de Santa Catarina a um nível competitivo e inovador dentre universidades brasileiras e internacionais.
+                Como estratégia de atuação, as atividades do laboratório baseiam-se em 5 pilares 
+            que sustentam suas características básicas: , nas quais ser lúdico, eficiente, colaborativo, criativo e versátil, completam
             </p>
-            <p>
+            <!-- <p>
                 A REDE PRONTO 3D visa a expansão da tecnologia de ponta aliada à criatividade em projetos inovadores elevando o estado de Santa Catarina
                 a um nível competitivo e inovador dentre universidades brasileiras e internacionais. Sua estratégia baseia-se em 5 pilares que sustentam
                 suas características básicas: 
@@ -117,7 +116,7 @@
               <li><i class="ion-android-checkmark-circle"></i> Colaborativo</li>
               <li><i class="ion-android-checkmark-circle"></i> Criativo</li>
               <li><i class="ion-android-checkmark-circle"></i> Versátil</li>
-            </ul>
+            </ul> -->
 
           </div>
         </div>
@@ -146,29 +145,16 @@
 
           <div class="col-lg-8 col-md-7 ">
 
-            <div class="row">
 
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
-                <h4 class="title"><a href="">Florianópolis</a></h4>
-                <p class="description">Localizada na Universidade Federal de Santa Catarina, o pólo de Florianópolis é um FABLAB certificado pelo MIT desde 2016. Sob a gestão no curso de Design,
-                   o laboratório atende a diversos cursos da universidade, com a coordenação da prof. Dra. Regiane Pupo.</p>
+              <div class=" box wow fadeInRight">
+               
+                <p >A REDE PRONTO3D tem como objetivo a estruturação de centros estrategicamente localizados no estado de Santa Catarina.
+                   Atualmente, possui laboratórios nas cidades de Criciúma, Chapecó e Lages, atendendo cursos de Design, Arquitetura, Engenharias, bem como 
+                   todas as áreas que envolvam criação, desenvolvimento e produção de modelos, protótipos, maquetes e produtos em escala real, auxiliando as
+                    diferentes etapas do processo de projeto. A REDE PRONTO 3D visa a expansão da tecnologia de ponta aliada à criatividade em projetos 
+                    inovadores elevando o estado de Santa Catarina a um nível competitivo e inovador dentre universidades brasileiras e internacionais.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><img src="img/logo_pronto/icone_pronto.png" style="height: 100px"></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
-              </div>
+              
             </div>
             
           </div>
@@ -185,15 +171,16 @@
     ============================-->
     <section id="call-to-action">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-left">
+          <div class=" text-center text-lg-left">
             <h3 class="cta-title">Tecnologias</h3>
-            <p class="cta-text"> A materialização da forma se dá por meio da fabricação digital, com meios de produção automatizada em tecnologias aditiva, subtrativa e formativa.
+            <p class="cta-text"> A materialização da forma no PRONTO3D se dá por meio da fabricação digital, com meios de produção automatizada em 
+              tecnologias 1) ADITIVA com impressoras 3D (FDM); 2) SUBTRATIVA com cortadora a laser e equipamento CNC (Reuter) de pequeno e grande portes e
+               3) FORMATIVA com vaccum forming (termoformagem). 
               </p>
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
+          <!-- <div class="col-lg-3 cta-btn-container text-center">
             <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -213,11 +200,11 @@
                   <div class="wow fadeInRight">
                     <h2 style="margin-bottom: 2rem">impressão 3D</h2>
                     <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                    <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com 4 impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA ou ABS para a obtenção de modelos, de forma aditiva, com tecnologia nacional e estrangeira.</p>
+                    <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA ou ABS para a obtenção de modelos, de forma aditiva, com tecnologia nacional.</p>
                     <i class="ion-ios-calendar-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                     <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em impressão 3D, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possivel.</p>
                     <div class=" cta-btn-container text-center">
-                        <a class="cta-btnn align-middle" href="#">Agende seu horario</a>
+                        <a class="cta-btnn align-middle" href="#">Quero imprimir em 3D</a>
                     </div>
                   </div>
                 </div>
@@ -233,10 +220,15 @@
               <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/laser.png" width="35%" alt="">
               <div class="wow fadeInLeft">
                 <h2>Corte Laser</h2>
-                <p>O corte laser é a tecnologia subtrativa que corta diversos materiais tais como papel, eva, compensado, papelão, cortiça, tecidos, dentre outros, de diversas espessuras.</p>
-                <p>A utilização deste serviço é feita por meio de agendamento, onde vc terá todas as instruções de uso.</p>
+                <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInLeft" data-wow-duration="0.5s">O corte laser é a tecnologia subtrativa que corta diversos materiais tais como papel, papelão, EVA, compensado, papelão, cortiça, tecidos, dentre outros, com precisão e qualidade, a partir de um desenho digital.</p>
+                <i class="ion-ios-crop wow fadeInLeft mb-0" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s">O equipamento de corte laser do PRONTO3D Florianópolis tem área útil de 85 x 60 cm, com espessuras que variam de acordo com o material.</p>
+                <i class="ion-ios-calendar-outline wow fadeInLeft mb-4" data-wow-delay="0.4s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.5s">A utilização do serviço de corte laser é feita por meio de agendamento, onde vc terá todas as instruções de uso.</p>
                 <div class=" cta-btn-container text-center float-left">
-                    <a class="cta-btnn align-middle" href="#">Agende seu horario</a>
+                    <a class="cta-btnn align-middle" href="https://www.youtube.com/watch?v=TIDAbrYC1oc">Como preparar seu arquivo</a>
+                    <a class="cta-btnn align-middle" href="#">Agende um horario</a>
                 </div>
               </div>
             </div>
@@ -252,9 +244,14 @@
               <div class="wow fadeInRight">
                 <h2>CNC de grande porte</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">A CNC - Computer Numeric Control - do PRONTO3D FLorianópolis, tem dimensões 3,00 x 2,00 x 0,15m e é utilizada para a fabricação de elementos de grande porte, tanto de perfilado (corte) quanto de desbaste de material.</p>
+                <p class="wow fadeInRight" data-wow-duration="0.5s">A Reuter CNC - Computer Numeric Control - do PRONTO3D Florianópolis, tem 3 eixos e dimensões 3,00 x 2,00 x 0,15m. 
+                É utilizada para a fabricação de elementos de grande porte, tanto de perfilado (corte) quanto de desbaste de material (2.5d).
+                </p>
                 <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Utilizando diversos materiais, o uso desta tecnologia depende de consulta ao depto responsável pela execuçao dos processos prévio. Desta forma, para uso deste equipamento, entre em contato através do email <b style="color: rgb(140, 200, 53)">pronto3d@gmail.com</b> e a equipe do PRONTO lhe auxiliará.</p>
+                <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em CNC, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
+                <div class=" cta-btn-container text-center">
+                        <a class="cta-btnn align-middle" href="#">Serviço de CNC</a>
+                </div>
               </div>
             </div>
           </div>
@@ -268,8 +265,13 @@
               <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/milling-machine.png" width="35%" alt="">
               <div class="wow fadeInLeft">
                 <h2>CNC milling</h2>
-                <p>O equipamento de milling tem dimensões 203,2mm x 152,4mm x 70mm e é utilizada para pequenos desbastes em diversos materiais.</p>
-                <p>Para uso deste equipamento, entre em contato através do email <b style="color: rgb(140, 200, 53)">pronto3d@gmail.com</b> e a equipe do PRONTO lhe auxiliará.</p>
+                <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInLeft" data-wow-duration="0.5s">O Milling, uma CNC de pequeno porte, tem dimensões 203,2mm x 152,4mm x 70mm e é utilizada para pequenos desbastes em diversos materiais.</p>
+                <i class="ion-ios-calendar-outline wow fadeInLeft mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                <p class="wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em CNC milling, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
+                <div class=" cta-btn-container text-center float-left">
+                    <a class="cta-btnn align-middle" href="#">Serviço de Milling</a>
+                </div>
               </div>
             </div>
           </div>
@@ -284,11 +286,12 @@
                 <div class="wow fadeInRight">
                   <h2>Vaccum Forming</h2>
                   <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                  <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                  <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
-                  <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                  <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
-                  <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                  <p class="wow fadeInRight" data-wow-duration="0.5s" style="padding-bottom: 10px; padding-top: 10px;">Vaccum Forming é um processo de termo formagem, de conformação de material.  </p>
+                  <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
+                  <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em vacum forming, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
+                  <div class=" cta-btn-container text-center">
+                          <a class="cta-btnn align-middle" href="#">Serviço de Vaccum Forming</a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -304,44 +307,44 @@
       <div class="container">
 
         <div class="section-header">
-          <h3 class="section-title">More Features</h3>
+          <h3 class="section-title">Atividades</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description">As atividades do PRONTO 3D Florianópolis se dividem entre ensino, pesquisa e extensão no âmbito de graduação e pós graduação em diversas esferas do conhecimento. Para maiores informações, entre em contato.</p>
         </div>
 
         <div class="row">
 
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft">
+          <div class="col-lg-5 box wow fadeInLeft mr-auto ml-auto">
               <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
-            </div>
+              <h4 class="title"><a href="">Ensino</a></h4>
+              <p class="description">As dependências do PRONTO3D Florianópolis agregam disciplinas dos cursos de graduação em Design, Design de Produto e Arquitetura
+                , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
+                 parte do processo de projetos. </p>
           </div>
 
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight">
+          <div class="col-lg-5 box wow fadeInRight ml-auto mr-auto">
               <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
-            </div>
+              <h4 class="title"><a href="">Pesquisa</a></h4>
+              <p class="description">As pesquisas conduzidas no laboratório são derivadas de projetos PIBIC/PIBIT, Trabalhos finais de graduação, mestrados 
+                e doutorados. Reúnem temas que envolvem a fabricação digital em diversas áreas. </p>
           </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="box wow fadeInRight">
+          
+          <div class="col-lg-5 box wow fadeInLeft ml-auto mr-auto">
               <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
-            </div>
+              <h4 class="title"><a href="">Extensão</a></h4>
+              <p class="description">As dependências do PRONTO3D Florianópolis oferecem cursos de capacitação,
+                 oficinas e workshops para as comunidades acadêmicas e não acadêmicas com aulas práticas que utilizam
+                  as tecnologias disponíveis do laboratório como parte do processo de projeto. </p>
           </div>
+
+          <div class="col-lg-5 box wow fadeInRight ml-auto mr-auto">
+              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
+              <h4 class="title"><a href="">Pronto Kids</a></h4>
+              <p class="description">O PRONTOKids é uma atividade direcionada a crianças até 12 anos, 
+                com oficinas lúdicas onde a tecnologia é encarada como parte do processo. Geralmente, é 
+                a escola que identifica o tema a ser desenvolvido e a equipe do PRONTO3D elabora e conduz as atividades.</p>
+          </div>
+
 
         </div>
       </div>
