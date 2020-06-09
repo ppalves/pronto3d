@@ -140,7 +140,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="img/icons/network.png" alt="" class="wow fadeInLeft">
+            <img src="img/icons/new/REDE.jpg" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -196,9 +196,9 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             <div class="container">
               <div class="row">
                 <div class="col-12">
-                  <img class="advanced-feature-img-left" src="img/icons/pretos/3d-printer.png" width="35%" alt="">
+                  <img class="advanced-feature-img-left" src="img/icons/new/IMPRESSORA3D.jpg" width="35%" alt="">
                   <div class="wow fadeInRight">
-                    <h2 style="margin-bottom: 2rem">impressão 3D</h2>
+                    <h2 style="margin-bottom: 2rem">Impressão 3D</h2>
                     <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
                     <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA ou ABS para a obtenção de modelos, de forma aditiva, com tecnologia nacional.</p>
                     <i class="ion-ios-calendar-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
@@ -217,7 +217,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/laser.png" width="35%" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/LASER.jpg" width="35%" alt="">
               <div class="wow fadeInLeft">
                 <h2>Corte Laser</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
@@ -240,7 +240,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-left" src="img/icons/pretos/cnc.png" width="35%" alt="">
+              <img class="advanced-feature-img-left" src="img/icons/new/CNC.jpg" width="35%" alt="">
               <div class="wow fadeInRight">
                 <h2>CNC de grande porte</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -262,7 +262,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/pretos/milling-machine.png" width="35%" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/MILLING.jpg" width="35%" alt="">
               <div class="wow fadeInLeft">
                 <h2>CNC milling</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
@@ -282,7 +282,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <img class="advanced-feature-img-left" src="img/icons/pretos/molding-machine.png" width="35%" alt="">
+                <img class="advanced-feature-img-left" src="img/icons/new/VACUUM.jpg" width="35%" alt="">
                 <div class="wow fadeInRight">
                   <h2>Vaccum Forming</h2>
                   <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -315,38 +315,65 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
         <div class="row">
 
           <div class="col-lg-5 box wow fadeInLeft mr-auto ml-auto">
-              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
-              <h4 class="title"><a href="">Ensino</a></h4>
-              <p class="description">As dependências do PRONTO3D Florianópolis agregam disciplinas dos cursos de graduação em Design, Design de Produto e Arquitetura
-                , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
-                 parte do processo de projetos. </p>
+            <div class="row">
+              <div class="col-lg-4" style="margin-top: 20px;">
+                <div class="icon"><img src="img/icons/new/ENSINO.jpg" alt="ensino" width="100%"></div>
+              </div>
+              <div class="col-lg-8">
+                <h4 class="title"><a href="">Ensino</a></h4>
+                <p class="description">As dependências do PRONTO3D Florianópolis agregam disciplinas dos cursos de graduação em Design, Design de Produto e Arquitetura
+                  , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
+                  parte do processo de projetos. </p>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-5 box wow fadeInRight ml-auto mr-auto">
-              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-              <h4 class="title"><a href="">Pesquisa</a></h4>
+            <div class="row">
+              <div class="col-lg-4" style="margin-top: 20px;">
+                <div class="icon"><img src="img/icons/new/PESQUISA.jpg" alt="pesquisa" width="100%"></div>
+              </div>
+              <div class="col-lg-8">
+                <h4 class="title"><a href="">Pesquisa</a></h4>
+                <p class="description">As pesquisas conduzidas no laboratório são derivadas de projetos PIBIC/PIBIT, Trabalhos finais de graduação, mestrados 
               <p class="description">As pesquisas conduzidas no laboratório são derivadas de projetos PIBIC/PIBIT, Trabalhos finais de graduação, mestrados 
+                <p class="description">As pesquisas conduzidas no laboratório são derivadas de projetos PIBIC/PIBIT, Trabalhos finais de graduação, mestrados 
                 e doutorados. Reúnem temas que envolvem a fabricação digital em diversas áreas. </p>
+              </div>
+            </div>
           </div>
           
           <div class="col-lg-5 box wow fadeInLeft ml-auto mr-auto">
-              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-              <h4 class="title"><a href="">Extensão</a></h4>
-              <p class="description">As dependências do PRONTO3D Florianópolis oferecem cursos de capacitação,
-                 oficinas e workshops para as comunidades acadêmicas e não acadêmicas com aulas práticas que utilizam
-                  as tecnologias disponíveis do laboratório como parte do processo de projeto. </p>
+            <div class="row">
+              <div class="col-lg-4" style="margin-top: 20px;">
+                <div class="icon"><img src="img/icons/new/EXTENSAO.jpg" alt="extensão" width="100%"></div>
+              </div>
+              <div class="col-lg-8">
+                <h4 class="title"><a href="">Extensão</a></h4>
+                <p class="description">As dependências do PRONTO3D Florianópolis oferecem cursos de capacitação,
+                    oficinas e workshops para as comunidades acadêmicas e não acadêmicas com aulas práticas que utilizam
+                    as tecnologias disponíveis do laboratório como parte do processo de projeto. </p>
+              </div>
+            </div>
           </div>
 
           <div class="col-lg-5 box wow fadeInRight ml-auto mr-auto">
-              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
-              <h4 class="title"><a href="">Pronto Kids</a></h4>
+            <div class="row">
+              <div class="col-lg-4" style="margin-top: 20px;">
+                <div class="icon"><img src="img/icons/new/PESQUISA.jpg" alt="pesquisa" width="100%"></div>
+              </div>
+              <div class="col-lg-8">
+                <h4 class="title"><a href="">Pronto Kids</a></h4>
+                <p class="description">O PRONTOKids é uma atividade direcionada a crianças até 12 anos, 
               <p class="description">O PRONTOKids é uma atividade direcionada a crianças até 12 anos, 
+                <p class="description">O PRONTOKids é uma atividade direcionada a crianças até 12 anos, 
+                  com oficinas lúdicas onde a tecnologia é encarada como parte do processo. Geralmente, é 
                 com oficinas lúdicas onde a tecnologia é encarada como parte do processo. Geralmente, é 
-                a escola que identifica o tema a ser desenvolvido e a equipe do PRONTO3D elabora e conduz as atividades.</p>
+                  com oficinas lúdicas onde a tecnologia é encarada como parte do processo. Geralmente, é 
+                  a escola que identifica o tema a ser desenvolvido e a equipe do PRONTO3D elabora e conduz as atividades.</p>
+              </div>
+            </div>
           </div>
-
-
-        </div>
       </div>
     </section><!-- #more-features -->
 
@@ -596,6 +623,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
     <!--==========================
       Gallery Section
     ============================-->
+    <!--https://www.w3schools.com/howto/howto_js_portfolio_filter.asp-->
     <section id="gallery">
       <div class="container-fluid">
         <div class="section-header">
