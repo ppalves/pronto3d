@@ -114,7 +114,7 @@ jQuery(document).ready(function($) {
     removalDelay: 300,
     mainClass: 'mfp-fade',
     gallery: {
-      enabled: true
+      enabled: false
     },
     zoom: {
       enabled: true,

@@ -629,12 +629,18 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
         <div class="section-header">
           <h3 class="section-title">Gallery</h3>
           <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <!-- <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p> -->
+          <div id="gallery-buttons" class="gallery-buttons">
+            <a class="gallery-button active" onclick="filterSelection('all')">all</a>
+            <a class="gallery-button" onclick="filterSelection('lala')">lala</a>
+            <a class="gallery-button" onclick="filterSelection('lolo')">lolo</a>
+            <a class="gallery-button" onclick="filterSelection('lele')">lele</a>
+          </div>
         </div>
 
         <div class="row no-gutters">
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lala image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-1.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-1.jpg" alt="">
@@ -642,7 +648,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lala image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-2.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-2.jpg" alt="">
@@ -650,7 +656,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lolo image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-3.jpg" alt="">
@@ -658,7 +664,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lolo image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-4.jpg" alt="">
@@ -666,7 +672,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lele image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-5.jpg" alt="">
@@ -674,7 +680,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6 lele image">
             <div class="gallery-item wow fadeInUp">
               <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
                 <img src="img/gallery/gallery-6.jpg" alt="">
@@ -816,6 +822,7 @@ por meio de técnicas automatizadas, <br> tais como impressão 3D, corte laser e
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
 
 
   <script>

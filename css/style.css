@@ -1336,11 +1336,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # PUPO
 --------------------------------------------------------------*/
@@ -1349,4 +1344,56 @@ body.mobile-nav-active #mobile-nav-toggle {
 .NavLogo{
   margin-top:-1.2rem;
   width: 20%;
+}
+
+
+#gallery .gallery-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid rgb(255, 165, 30);
+  color: rgb(255, 165, 30);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#gallery .gallery-button.active {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  background: rgb(255, 165, 30);
+  border: 2px solid rgb(255, 165, 30);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#gallery .gallery-button:hover {
+  background: rgb(255, 165, 30);
+  border: 2px solid rgb(255, 165, 30);
+  color: rgb(255, 255, 255);
+}
+
+#gallery .gallery-buttons{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#gallery .image{
+  display: none;
+}
+
+#gallery .show{
+  display: flex;
 }
