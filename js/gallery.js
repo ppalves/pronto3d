@@ -1,4 +1,4 @@
-filterSelection("all") // Execute the function and show all columns
+filterSelection("gallery-3d") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("image");
