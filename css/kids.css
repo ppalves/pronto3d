@@ -1,0 +1,65 @@
+#projects {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+#projects {
+    background: #fff;
+    padding: 60px 0 0 0;
+    overflow: hidden;
+}
+
+#projects .container-fluid {
+    padding: 0px;
+}
+
+#projects .gallery-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all ease-in-out 0.4s;
+}
+
+#projects .gallery-item {
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#projects .gallery-item img {
+    transition: all ease-in-out 0.4s;
+    width: 100%;
+}
+
+#projects .gallery-item:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#projects .gallery-item:hover .gallery-overlay {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    padding-bottom: 10px;
+}
+
+
+#projects i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: rgb(255, 165, 30);
+  }
