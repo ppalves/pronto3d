@@ -7,7 +7,7 @@
 
         <!---<h1><a href="#intro" class="scrollto">Avilon</a></h1> --->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#intro"><img src="img/logo_pronto/logopronto.png" alt="" title="" class="img-fluid NavLogo"></a>
+        <a href="/"><img src="img/logo_pronto/logopronto.png" alt="" title="" class="img-fluid NavLogo"></a>
 
 
       <nav id="nav-menu-container">

@@ -10,10 +10,12 @@
   <?php include 'sections/activities.php' ;?>
   <?php include 'sections/kids-section.php' ;?>
   <?php include 'sections/gallery.php' ;?>
+  <?php include 'sections/chevron.php' ;?>
   <?php include 'sections/team.php' ;?>
   <?php include 'sections/faq.php' ;?>
   <?php include realpath(__DIR__ . '/../common/contact.php') ;?>
   <?php include realpath(__DIR__ . '/../common/partners.php') ;?>
+  <?php include realpath(__DIR__ . '/../common/labs.php') ;?>
 
 </main>
 

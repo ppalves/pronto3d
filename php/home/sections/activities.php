@@ -23,9 +23,6 @@
                   , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
                   parte do processo de projetos. </p>
               </div>
-              <div class="cta-btn-container text-center" style="margin:auto">
-                <a class="cta-btn align-middle" href="kids.php">Saiba Mais</a>
-              </div>
             </div>
           </div>
 

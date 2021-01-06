@@ -4,6 +4,7 @@
     <section id="clients">
       <div class="container">
 
+        <h2 style="text-align: center;">Apoio</h2>
         <div class="row wow fadeInUp">
 
           <div class="col-md-2" style="max-height:4rem; text-align:center">
