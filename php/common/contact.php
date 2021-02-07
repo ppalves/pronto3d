@@ -7,7 +7,7 @@
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Pronto</h3>
+              <h3>Pronto 3D</h3>
               <p>
                 Para qualquer informação adicional, teremos prazer em atendê-lo. Entre em contato.
               </p>

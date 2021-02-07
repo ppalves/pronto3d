@@ -13,6 +13,10 @@
     padding: 0px;
 }
 
+#projects .project-img-margin {
+    margin: 0 6rem;
+}
+
 #projects .gallery-overlay {
     position: absolute;
     top: 0;
@@ -62,4 +66,10 @@
     font-size: 20px;
     padding-right: 4px;
     color: rgb(255, 165, 30);
-  }
+}
+
+@media (max-width: 768px) {
+    #projects .project-img-margin {
+        margin: 0;
+    }
+}
