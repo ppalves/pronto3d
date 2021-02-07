@@ -7,7 +7,7 @@
             <h3 class="cta-title">Tecnologias</h3>
             <p class="cta-text"> A materialização da forma no PRONTO3D se dá por meio da fabricação digital, com meios de produção automatizada em 
               tecnologias 1) ADITIVA com impressoras 3D (FDM); 2) SUBTRATIVA com cortadora a laser e equipamento CNC (Reuter) de pequeno e grande portes e
-               3) FORMATIVA com vaccum forming (termoformagem). 
+               3) FORMATIVA com vacuum forming (termoformagem). 
               </p>
           </div>
           <!-- <div class="col-lg-3 cta-btn-container text-center">
@@ -32,7 +32,7 @@
                   <div class="wow fadeInRight">
                     <h2 style="margin-bottom: 2rem">Impressão 3D</h2>
                     <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                    <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA ou ABS para a obtenção de modelos, de forma aditiva, com tecnologia nacional.</p>
+                    <p class="wow fadeInRight" data-wow-duration="0.5s">O PRONTO 3D Florianópolis conta com impressoras de tecnologia FDM - Fused Deposition Modeling - que utilizam polímeros PLA, ABS, PETG, TPU, dentre outros, para a obtenção de modelos, de forma aditiva, com tecnologia nacional.</p>
                     <i class="ion-ios-calendar-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                     <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em impressão 3D, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possivel.</p>
                     <div class=" cta-btn-container text-center">
@@ -120,15 +120,15 @@
               <div class="col-12">
                 <img class="advanced-feature-img-left" src="img/icons/new/VACUUM.jpg" width="35%" alt="">
                 <div class="wow fadeInRight">
-                  <h2>Vaccum Forming</h2>
+                  <h2>vacuum Forming</h2>
                   <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                  <p class="wow fadeInRight" data-wow-duration="0.5s" style="padding-bottom: 10px; padding-top: 10px;">Vaccum Forming é um processo de termo formagem, de conformação de material.  </p>
+                  <p class="wow fadeInRight" data-wow-duration="0.5s" style="padding-bottom: 10px; padding-top: 10px;">vacuum Forming é um processo de termo formagem, de conformação de material.  </p>
                   <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                   <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em vacum forming, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
                   <div class=" cta-btn-container text-center">
-                          <a class="cta-btnn align-middle" style="cursor: default">Serviço de Vaccum Forming</a>
+                          <a class="cta-btnn align-middle" style="cursor: default">Serviço de vacuum Forming</a>
                   </div>
-                  <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de vaccum forming</p>
+                  <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de vacuum forming</p>
                 </div>
               </div>
             </div>

@@ -27,10 +27,14 @@
             O laboratório, do curso de Design da UFSC em Florianópolis, é formado por professores pesquisadores, alunos de graduação e de pós-graduação,
              participantes de programas de iniciação científica e similares, além de profissionais envolvidos em projetos que se desdobram em aplicações
               de atividades de pesquisa e extensão. As atividades do laboratório visam a expansão da tecnologia de ponta aliada à criatividade em projetos
-               inovadores e oficinas de capacitação, elevando o estado de Santa Catarina a um nível competitivo e inovador dentre universidades brasileiras e internacionais.
+               inovadores e oficinas de capacitação.
                 Como estratégia de atuação, as atividades do laboratório baseiam-se em 5 pilares 
             que sustentam suas características básicas: , nas quais ser lúdico, eficiente, colaborativo, criativo e versátil, completam
             </p>
+
+            <div style="text-align: center">
+              <img class="pontos-img" src="img/landing/5pontos.jpg" alt="5 pontos do pronto 3d">
+            </div>
 
 <!-- 
             <ul>

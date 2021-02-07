@@ -7,7 +7,7 @@
         <div class="section-header">
           <h3 class="section-title">Atividades</h3>
           <span class="section-divider"></span>
-          <p class="section-description">As atividades do PRONTO 3D Florianópolis se dividem entre ensino, pesquisa e extensão no âmbito de graduação e pós graduação em diversas esferas do conhecimento. Para maiores informações, entre em contato.</p>
+          <p class="section-description">As atividades do PRONTO 3D Florianópolis se dividem entre ensino, pesquisa e extensão no âmbito de graduação e pós graduação em diversas esferas do conhecimento.<br>Para maiores informações, entre em contato.</p>
         </div>
 
         <div class="row">
@@ -21,7 +21,7 @@
                 <h4 class="title"><a href="">Ensino</a></h4>
                 <p class="description">As dependências do PRONTO3D Florianópolis agregam disciplinas dos cursos de graduação em Design, Design de Produto e Arquitetura
                   , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
-                  parte do processo de projetos. </p>
+                  parte do processo de projeto. </p>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
               <div class="col-lg-8">
                 <h4 class="title"><a href="">Pesquisa</a></h4>
                 <p class="description">
-                As pesquisas conduzidas no laboratório são derivadas de projetos PIBIC/PIBIT, Trabalhos finais de
+                As pesquisas conduzidas no laboratório são derivadas de projetos de iniciação científica PIBIC/PIBIT, Trabalhos finais de
                  graduação, mestrados e doutorados. Reúnem temas que envolvem a fabricação digital em diversas áreas.
               </p>
               </div>
@@ -48,9 +48,9 @@
               </div>
               <div class="col-lg-8">
                 <h4 class="title"><a href="">Extensão</a></h4>
-                <p class="description">As dependências do PRONTO3D Florianópolis oferecem cursos de capacitação,
+                <p class="description">O PRONTO3D Florianópolis oferece cursos de capacitação,
                     oficinas e workshops para as comunidades acadêmicas e não acadêmicas com aulas práticas que utilizam
-                    as tecnologias disponíveis do laboratório como parte do processo de projeto. </p>
+                    as tecnologias disponíveis no laboratório como parte do processo de projeto. </p>
               </div>
             </div>
           </div>

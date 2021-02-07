@@ -551,6 +551,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+#about .pontos-img {
+  width: 35%;
+}
+
 #about .about-img img {
   margin-left: -15px;
   max-width: 100%;
@@ -1444,6 +1448,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #about .about-img {
     height: auto;
+  }
+
+  #about .pontos-img {
+    width: 50%;
   }
 
   #about .about-img img {

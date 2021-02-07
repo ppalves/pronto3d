@@ -5,7 +5,7 @@
 
     <div class="intro-text">
       <h2>Pronto Kids</h2>
-      <p>o PRONTOKids é uma atividade de extensão que atende crianças do Ensino Fundamental I e II, bem como alunos do Ensino Médio, com atividades diversas, visitas monitoradas, workshops e oficinas, com o intuito de demonstrar a tecnologia como aliada da criatividade. De forma lúdica e possível a utilização de equipamentos como corte a laser e impressão 3D envolve os visitantes em oportunidades de conhecimento dos meio automatizados de materialização da forma.</p>
+      <p>o PRONTOKids é uma atividade de extensão que atende crianças do Ensino Fundamental I e II, com atividades diversas, visitas monitoradas, workshops e oficinas, com o intuito de demonstrar a tecnologia como aliada da criatividade. De forma lúdica e possível a utilização de equipamentos como corte a laser e impressão 3D envolve os visitantes em oportunidades de conhecimento dos meio automatizados de materialização da forma.</p>
     </div>
 <!--
     <div class="product-screens">
