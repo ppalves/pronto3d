@@ -36,8 +36,9 @@
                     <i class="ion-ios-calendar-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                     <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em impressão 3D, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possivel.</p>
                     <div class=" cta-btn-container text-center">
-                        <a class="cta-btnn align-middle" href="#">Quero imprimir em 3D</a>
+                        <a class="cta-btnn align-middle" style="cursor: default">Quero imprimir em 3D</a>
                     </div>
+                    <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando impressões 3D</p>
                   </div>
                 </div>
                 
@@ -58,10 +59,11 @@
                 <p class="wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s">O equipamento de corte laser do PRONTO3D Florianópolis tem área útil de 85 x 60 cm, com espessuras que variam de acordo com o material.</p>
                 <i class="ion-ios-calendar-outline wow fadeInLeft mb-4" data-wow-delay="0.4s" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInLeft" data-wow-delay="0.4s" data-wow-duration="0.5s">A utilização do serviço de corte laser é feita por meio de agendamento, onde vc terá todas as instruções de uso.</p>
-                <div class=" cta-btn-container text-center float-left">
+                <div class=" cta-btn-container text-center">
                     <a class="cta-btnn align-middle" href="https://www.youtube.com/watch?v=TIDAbrYC1oc">Como preparar seu arquivo</a>
-                    <a class="cta-btnn align-middle" href="#">Agende um horario</a>
+                    <a class="cta-btnn align-middle" style="cursor: default">Agende um horario</a>
                 </div>
+                <p style="margin-left: 4rem">Devido a pandemia não estamos agendando cortes a laser</p>
               </div>
             </div>
           </div>
@@ -82,8 +84,9 @@
                 <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em CNC, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
                 <div class=" cta-btn-container text-center">
-                        <a class="cta-btnn align-middle" href="#">Serviço de CNC</a>
+                        <a class="cta-btnn align-middle" style="cursor: default">Serviço de CNC</a>
                 </div>
+                <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de CNC</p>
               </div>
             </div>
           </div>
@@ -101,9 +104,10 @@
                 <p class="wow fadeInLeft" data-wow-duration="0.5s">O Milling, uma CNC de pequeno porte, tem dimensões 203,2mm x 152,4mm x 70mm e é utilizada para pequenos desbastes em diversos materiais.</p>
                 <i class="ion-ios-calendar-outline wow fadeInLeft mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInLeft" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em CNC milling, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
-                <div class=" cta-btn-container text-center float-left">
-                    <a class="cta-btnn align-middle" href="#">Serviço de Milling</a>
+                <div class=" cta-btn-container text-center ">
+                    <a class="cta-btnn align-middle" style="cursor: default">Serviço de Milling</a>
                 </div>
+                <p style="margin-left: 4rem">Devido a pandemia não estamos agendando serviços de milling</p>
               </div>
             </div>
           </div>
@@ -122,8 +126,9 @@
                   <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                   <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em vacum forming, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
                   <div class=" cta-btn-container text-center">
-                          <a class="cta-btnn align-middle" href="#">Serviço de Vaccum Forming</a>
+                          <a class="cta-btnn align-middle" style="cursor: default">Serviço de Vaccum Forming</a>
                   </div>
+                  <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de vaccum forming</p>
                 </div>
               </div>
             </div>

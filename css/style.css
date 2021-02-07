@@ -9,11 +9,22 @@
 # General
 --------------------------------------------------------------*/
 
+@font-face {
+  font-family: futura;
+  src: url(../fonts/Futura_Condensed_Medium.otf);
+}
+
+@font-face {
+  font-family: futura-bold;
+  src: url(../fonts/Futura_Condensed_Bold.otf);
+}
+
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: futura;
   overflow-x: hidden;
+  font-size: 1.2rem;
 }
 
 a {
@@ -40,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -97,7 +108,7 @@ h6 {
   padding: 0;
   line-height: 1;
   display: inline-block;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -207,7 +218,7 @@ h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
@@ -341,9 +352,9 @@ h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 400;
-  font-size: 14px;
+  font-size: 18px;
   outline: none;
 }
 
@@ -729,7 +740,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #advanced-features .cta-btnn {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -769,7 +780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -924,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 
 #pricing .featured {
@@ -956,7 +967,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 22px;
   line-height: 1;
   font-weight: 300;
@@ -999,7 +1010,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 22px;
   line-height: 1;
   font-weight: 300;
@@ -1044,7 +1055,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 18px 0;
   display: block;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 22px;
   line-height: 1;
   font-weight: 300;
@@ -1188,7 +1199,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1198,7 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   color: #888;
 }
 
@@ -1535,7 +1546,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #gallery .gallery-button {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1551,7 +1562,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #gallery .gallery-button.active {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1595,7 +1606,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #faq .faq-button {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1611,7 +1622,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq .faq-button.activeFaq {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1665,7 +1676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #kids-section .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1768,7 +1779,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #chevron .cta-btnn {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
