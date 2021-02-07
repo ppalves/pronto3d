@@ -24,7 +24,7 @@ body {
   color: #666666;
   font-family: futura;
   overflow-x: hidden;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
 }
 
 a {
@@ -570,9 +570,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
 }
 
-#about .content p {
+/* #about .content p {
   line-height: 26px;
-}
+} */
 
 #about .content p:last-child {
   margin-bottom: 0;
