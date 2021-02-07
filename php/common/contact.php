@@ -9,7 +9,7 @@
             <div class="contact-about">
               <h3>Pronto</h3>
               <p>
-                Para qualquer informação adicional, teremos prazer em atendê-lo. Entre e contato.
+                Para qualquer informação adicional, teremos prazer em atendê-lo. Entre em contato.
               </p>
               <div class="social-links">
                 <a href="https://www.facebook.com/Pronto3d/" target="blank" class="facebook"><i class="fa fa-facebook"></i></a>

@@ -33,7 +33,7 @@ if ($name == "" || $msg_subject == "" || $message == "" || $email == "") {
 
     // Replace recipient@example.com with a "To" address. If your account
     // is still in the sandbox, this address must be verified.
-    $recipient = 'contatopronto3d@gmail.com';
+    $recipient = 'pronto3d@gmail.com';
 
     // Replace smtp_username with your Amazon SES SMTP user name.
     $usernameSmtp = getenv("PRONTO_SES_USERNAME");
