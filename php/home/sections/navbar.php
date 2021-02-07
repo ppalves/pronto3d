@@ -20,7 +20,7 @@
           <li><a href="/kids.php">Pronto Kids</a></li>
           <li><a href="#gallery">Galeria</a></li>  
           <li><a href="#chevron">Chevron Award</a></li>                  
-          <li><a href="#team">Time</a></li>
+          <li><a href="#team">Nosso Time</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->

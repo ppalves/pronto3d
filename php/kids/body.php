@@ -7,6 +7,7 @@
   <?php include 'sections/projects.php'?>
   <?php include realpath(__DIR__ . '/../common/contact.php') ;?>
   <?php include realpath(__DIR__ . '/../common/partners.php') ;?>
+  <?php include realpath(__DIR__ . '/../common/research_groups.php') ;?>
   <?php include realpath(__DIR__ . '/../common/labs.php') ;?>
 
 
