@@ -7,7 +7,7 @@
             <h3 class="cta-title">Tecnologias</h3>
             <p class="cta-text"> A materialização da forma no PRONTO3D se dá por meio da fabricação digital, com meios de produção automatizada em 
               tecnologias 1) ADITIVA com impressoras 3D (FDM); 2) SUBTRATIVA com cortadora a laser e equipamento CNC (Reuter) de pequeno e grande portes e
-               3) FORMATIVA com vacuum forming (termoformagem). 
+               3) FORMATIVA com Vacuum Forming (termoformagem). 
               </p>
           </div>
           <!-- <div class="col-lg-3 cta-btn-container text-center">
@@ -28,7 +28,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-12">
-                  <img class="advanced-feature-img-left" src="img/icons/new/IMPRESSORA3D.jpg" width="35%" alt="">
+                  <img class="advanced-feature-img-left" src="img/icons/new/IMPRESSORA3D.jpg" width="30%" alt="">
                   <div class="wow fadeInRight">
                     <h2 style="margin-bottom: 2rem">Impressão 3D</h2>
                     <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -50,7 +50,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/LASER.jpg" width="35%" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/LASER.png" width="30%" alt="">
               <div class="wow fadeInLeft">
                 <h2>Corte Laser</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
@@ -74,7 +74,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-left" src="img/icons/new/CNC.jpg" width="35%" alt="">
+              <img class="advanced-feature-img-left" src="img/icons/new/CNC.jpg" width="30%" alt="">
               <div class="wow fadeInRight">
                 <h2>CNC de grande porte</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -97,7 +97,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/MILLING.jpg" width="35%" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="img/icons/new/MILLING.png" width="30%" alt="">
               <div class="wow fadeInLeft">
                 <h2>CNC milling</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInLeft" data-wow-duration="0.5s"></i>
@@ -118,17 +118,17 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-                <img class="advanced-feature-img-left" src="img/icons/new/VACUUM.jpg" width="35%" alt="">
+                <img class="advanced-feature-img-left" src="img/icons/new/VACUUM.jpg" width="30%" alt="">
                 <div class="wow fadeInRight">
-                  <h2>vacuum Forming</h2>
+                  <h2>Vacuum Forming</h2>
                   <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                  <p class="wow fadeInRight" data-wow-duration="0.5s" style="padding-bottom: 10px; padding-top: 10px;">vacuum Forming é um processo de termo formagem, de conformação de material.  </p>
+                  <p class="wow fadeInRight" data-wow-duration="0.5s" style="padding-bottom: 10px; padding-top: 10px;">Vacuum Forming é um processo de termo formagem, de conformação de material.  </p>
                   <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                   <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Para a utilização dos serviços em vacum forming, por favor, preencha o cadastro e nossa equipe irá entrar em contato o mais breve possível.</p>
                   <div class=" cta-btn-container text-center">
-                          <a class="cta-btnn align-middle" style="cursor: default">Serviço de vacuum Forming</a>
+                          <a class="cta-btnn align-middle" style="cursor: default">Serviço de Vacuum Forming</a>
                   </div>
-                  <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de vacuum forming</p>
+                  <p style="float: right; margin-right: 1rem">Devido a pandemia não estamos agendando serviços de Vacuum Forming</p>
                 </div>
               </div>
             </div>

@@ -104,7 +104,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="member">
               <div class="pic"><img src="img/team/Ivan.jpg" alt=""></div>
-              <h4>Ivan Mederios</h4>
+              <h4>Ivan Medeiros</h4>
               <a href="http://lattes.cnpq.br/0042907358082077"><span>Lattes</span></a>
             </div>
           </div>
@@ -138,17 +138,7 @@
            e agora voam em suas carreiras. Agradecemos por todo o apoio e dedicação.
           </p>
           <p class="section-description wow fadeInUp" style="margin-bottom:0px;padding-bottom:0px">
-          Charles Constantino  |  Davi Goulart  |  Dominique Lewis  | André Gustavo Lucas  |  Giulliano Bettiol  |  
-          Gilberto Martini  |  Gabriela Pereira  |  Julia Stefens  | Fernanda Spiller  |  Uirá Duarte  |  Artur Balthazar 
-            |  Clara Andrezzo  |  Adriel Giovanella  |  Alan Fiorini  |  Bruna Soccal  |  Fernando Portella  |
-              Ana Carolina Gomes  |  Andrei Donatti  |  Natália Queiroz  |  Arthur Stofella  |  Isadora Fontenelle  |
-                Paulo Crocomo  |  Braulio Crippa  |  Caio Tirado  |  Maria Candelária Ryberg  |  Gladys Taparello 
-                 |  Mauricio Storch  |  Carolina Pacheco  |  Daniela Klafke  |  Maria Eduarda Cortezini  |  Enrico Fava 
-                  |  Gabriel de Bem  |  Tathiana Spacek  |  Gustavo Garcia  |  Ianka Martins  |  Jamile Bastiani  | 
-                   Julian Vargas  |  Kariny Cândido  |  Lucas Gogolevsky  |  Marcella Schneider  | 
-                    Marco Aurélio Bittencourt  |  Venancio Perin  |  Mariana Pfleger  |  Gabriel Querne  | 
-                     Larissa Adriano  | Rafael Selhorst  |  Thales Resende  |  Yuri Assis  |  Juliano Miotto  
-                     |  Bianca Zambonato  |  Alexandre Muller  |  Carla Secchi 
+          Adriel Giovanella  |  Alan Fiorini  |  Alexandre Muller  |  Ana Carolina Gomes  |  Andrei Donatti  |  André Gustavo Lucas  |  Arthur Stofella  |  Artur Balthazar  |  Bianca Zambonato  |  Braulio Crippa  |  Bruna Soccal  |  Caio Tirado  |  Carla Secchi  |  Carolina Pacheco  |  Charles Constantino  |  Clara Andrezzo  |  Daniela Klafke  |  Davi Goulart  |  Dominique Lewis  |  Enrico Fava  |  Fernanda Spiller  |  Fernando Portella  |  Gabriel Querne  |  Gabriel de Bem  |  Gabriela Pereira  |  Gilberto Martini  |  Giulliano Bettiol  |  Gladys Taparello  |  Gustavo Garcia  |  Ianka Martins  |  Isadora Fontenelle  |  Jamile Bastiani  |  Julia Stefens  |  Julian Vargas  |  Juliano Miotto  |  Kariny Cândido  |  Larissa Adriano  |  Lucas Gogolevsky  |  Luisa Piccolo Serafim  |  Marcella Schneider  |  Marco Aurélio Bittencourt  |  Maria Candelária Ryberg  |  Maria Eduarda Cortezini  |  Mariana Pfleger  |  Mauricio Storch  |  Natália Queiroz  |  Paulo Crocomo  |  Rafael Selhorst  |  Tathiana Spacek  |  Thales Resende  |  Uirá Duarte  |  Venancio Perin  |  Yuri Assis
           </p>
         </div>
 

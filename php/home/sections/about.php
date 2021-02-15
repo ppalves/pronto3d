@@ -33,7 +33,7 @@
             </p>
 
             <div style="text-align: center">
-              <img class="pontos-img" src="img/landing/5pontos.jpg" alt="5 pontos do pronto 3d">
+              <img class="pontos-img" src="img/landing/5pontos.svg" alt="5 pontos do pronto 3d">
             </div>
 
 <!-- 
