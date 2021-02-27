@@ -16,7 +16,7 @@
                 <a href="https://www.gmaufsc.com.br/" target="blank"><img src="img/research/gma.jpeg" alt="" ></a>
             </div>
             <div class="col-md-4" style="max-height:4rem; text-align:center">
-                <a style="cursor: default"><img src="img/research/t&m.png" alt="" ></a>
+                <a href="http://www.thinkmake.com.br/" target="blank"><img src="img/research/t&m.png" alt="" ></a>
             </div>
 
           <div class="col-md-2" style="max-height:4rem; text-align:center">

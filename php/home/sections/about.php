@@ -29,7 +29,7 @@
               de atividades de pesquisa e extensão. As atividades do laboratório visam a expansão da tecnologia de ponta aliada à criatividade em projetos
                inovadores e oficinas de capacitação.
                 Como estratégia de atuação, as atividades do laboratório baseiam-se em 5 pilares 
-            que sustentam suas características básicas nas quais ser lúdico, eficiente, colaborativo, criativo e versátil se completam
+            que sustentam suas características básicas nas quais ser lúdico, eficiente, colaborativo, criativo e versátil se completam.
             </p>
 
             <div style="text-align: center">

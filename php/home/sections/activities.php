@@ -18,7 +18,7 @@
                 <div class="icon"><img src="img/icons/new/ENSINO.jpg" alt="ensino" width="100%"></div>
               </div>
               <div class="col-lg-8">
-                <h4 class="title"><a href="">Ensino</a></h4>
+                <h4 class="title" style="font-size: 1.5rem"><a href="">Ensino</a></h4>
                 <p class="description">As dependências do PRONTO3D Florianópolis agregam disciplinas dos cursos de graduação em Design, Design de Produto e Arquitetura
                   , da UFSC, bem como da pós graduação. As aulas, de cunho teórico-prático ou somente prático, utilizam as tecnologias disponíveis do laboratório como
                   parte do processo de projeto. </p>
@@ -32,7 +32,7 @@
                 <div class="icon"><img src="img/icons/new/PESQUISA.jpg" alt="pesquisa" width="100%"></div>
               </div>
               <div class="col-lg-8">
-                <h4 class="title"><a href="">Pesquisa</a></h4>
+                <h4 class="title" style="font-size: 1.5rem"><a href="">Pesquisa</a></h4>
                 <p class="description">
                 As pesquisas conduzidas no laboratório são derivadas de projetos de iniciação científica PIBIC/PIBIT, Trabalhos finais de
                  graduação, mestrados e doutorados. Reúnem temas que envolvem a fabricação digital em diversas áreas.
@@ -47,7 +47,7 @@
                 <div class="icon"><img src="img/icons/new/EXTENSAO.jpg" alt="extensão" width="100%"></div>
               </div>
               <div class="col-lg-8">
-                <h4 class="title"><a href="">Extensão</a></h4>
+                <h4 class="title" style="font-size: 1.5rem"><a href="">Extensão</a></h4>
                 <p class="description">O PRONTO3D Florianópolis oferece cursos de capacitação,
                     oficinas e workshops para as comunidades acadêmicas e não acadêmicas com aulas práticas que utilizam
                     as tecnologias disponíveis no laboratório como parte do processo de projeto. </p>

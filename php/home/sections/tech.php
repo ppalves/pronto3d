@@ -6,7 +6,7 @@
           <div class=" text-center text-lg-left">
             <h3 class="cta-title">Tecnologias</h3>
             <p class="cta-text"> A materialização da forma no PRONTO3D se dá por meio da fabricação digital, com meios de produção automatizada em 
-              tecnologias 1) ADITIVA com impressoras 3D (FDM); 2) SUBTRATIVA com cortadora a laser e equipamento CNC (Reuter) de pequeno e grande portes e
+              tecnologias 1) ADITIVA com impressoras 3D (FDM); 2) SUBTRATIVA com cortadora a laser e equipamento CNC (Router) de pequeno e grande portes e
                3) FORMATIVA com Vacuum Forming (termoformagem). 
               </p>
           </div>
@@ -78,7 +78,7 @@
               <div class="wow fadeInRight">
                 <h2>CNC de grande porte</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
-                <p class="wow fadeInRight" data-wow-duration="0.5s">A Reuter CNC - Computer Numeric Control - do PRONTO3D Florianópolis, tem 3 eixos e dimensões 3,00 x 2,00 x 0,15m. 
+                <p class="wow fadeInRight" data-wow-duration="0.5s">A Router CNC - Computer Numeric Control - do PRONTO3D Florianópolis, tem 3 eixos e dimensões 3,00 x 2,00 x 0,15m. 
                 É utilizada para a fabricação de elementos de grande porte, tanto de perfilado (corte) quanto de desbaste de material (2.5d).
                 </p>
                 <i class="ion-ios-calendar-outline wow fadeInRight mb-4" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>

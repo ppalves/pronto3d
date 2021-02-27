@@ -72,7 +72,7 @@
           <div class="col-lg-3 col-md-6 offset-lg-3">
             <div class="member">
               <div class="pic"><img src="img/team/Patricia.jpg" alt=""></div>
-              <h4>Patricia Turassi - Doutoranda Pos Arq - UFSC</h4>
+              <h4>Patrícia Turazzi - Doutoranda Pos Arq - UFSC</h4>
               <a href="http://lattes.cnpq.br/9498824354532253"><span>Lattes</span></a>
             </div>
           </div>
