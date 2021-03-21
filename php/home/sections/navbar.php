@@ -18,6 +18,7 @@
           <li><a href="#call-to-action">Tecnologias</a></li>
           <li><a href="#more-features">Atividades</a></li>
           <li><a href="/kids.php">Pronto Kids</a></li>
+          <li><a href="/movel.php">Laboratório Móvel</a></li>
           <li><a href="#gallery">Galeria</a></li>  
           <li><a href="#chevron">Chevron Award</a></li>                  
           <li><a href="#team">Nosso Time</a></li>
