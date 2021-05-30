@@ -48,14 +48,6 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="member">
-              <div class="pic"><img src="img/team/Mariana.jpg" alt=""></div>
-              <h4>Mariana Franco</h4>
-              <a href="http://lattes.cnpq.br/0224139651065521"><span>Lattes</span></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
               <div class="pic"><img src="img/team/Gabi.jpg" alt=""></div>
               <h4>Gabriela Chicarelli</h4>
               <a href="http://lattes.cnpq.br/2174451916766265"><span>Lattes</span></a>
@@ -63,13 +55,6 @@
           </div>
 
           <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="img/team/Juliano.jpg" alt=""></div>
-              <h4>Juliano Moriggi</h4>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 offset-lg-3">
             <div class="member">
               <div class="pic"><img src="img/team/Patricia.jpg" alt=""></div>
               <h4>Patrícia Turazzi - Doutoranda Pos Arq - UFSC</h4>
@@ -82,6 +67,22 @@
               <div class="pic"><img src="img/team/Gladys.jpg" alt=""></div>
               <h4>Gladys Taparello</h4>
               <a href="http://lattes.cnpq.br/2091565230291261"><span>Lattes</span></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 offset-lg-3">
+            <div class="member">
+              <div class="pic"><img src="img/team/Guilherme1.jpg" alt=""></div>
+              <h4>Guilherme França de Lima</h4>
+              <a href="http://lattes.cnpq.br/7106039205718078"><span>Lattes</span></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team/Neuhaus.jpg" alt=""></div>
+              <h4>Artur Garcia Neuhaus</h4>
+              <a href="http://lattes.cnpq.br/5160562079899443"><span>Lattes</span></a>
             </div>
           </div>
 
@@ -138,7 +139,7 @@
            e agora voam em suas carreiras. Agradecemos por todo o apoio e dedicação.
           </p>
           <p class="section-description wow fadeInUp" style="margin-bottom:0px;padding-bottom:0px">
-          Adriel Giovanella  |  Alan Fiorini  |  Alexandre Muller  |  Ana Carolina Gomes  |  Andrei Donatti  |  André Gustavo Lucas  |  Arthur Stofella  |  Artur Balthazar  |  Bianca Zambonato  |  Braulio Crippa  |  Bruna Soccal  |  Caio Tirado  |  Carla Secchi  |  Carolina Pacheco  |  Charles Constantino  |  Clara Andrezzo  |  Daniela Klafke  |  Davi Goulart  |  Dominique Lewis  |  Enrico Fava  |  Fernanda Spiller  |  Fernando Portella  |  Gabriel Querne  |  Gabriel de Bem  |  Gabriela Pereira  |  Gilberto Martini  |  Giulliano Bettiol  |  Gladys Taparello  |  Gustavo Garcia  |  Ianka Martins  |  Isadora Fontenelle  |  Jamile Bastiani  |  Julia Stefens  |  Julian Vargas  |  Juliano Miotto  |  Kariny Cândido  |  Larissa Adriano  |  Lucas Gogolevsky  |  Luisa Piccolo Serafim  |  Marcella Schneider  |  Marco Aurélio Bittencourt  |  Maria Candelária Ryberg  |  Maria Eduarda Cortezini  |  Mariana Pfleger  |  Mauricio Storch  |  Natália Queiroz  |  Paulo Crocomo  |  Rafael Selhorst  |  Tathiana Spacek  |  Thales Resende  |  Uirá Duarte  |  Venancio Perin  |  Yuri Assis
+          Adriel Giovanella  |  Alan Fiorini  |  Alexandre Muller  |  Ana Carolina Gomes  |  Andrei Donatti  |  André Gustavo Lucas  |  Arthur Stofella  |  Artur Balthazar  |  Bianca Zambonato  |  Braulio Crippa  |  Bruna Soccal  |  Caio Tirado  |  Carla Secchi  |  Carolina Pacheco  |  Charles Constantino  |  Clara Andrezzo  |  Daniela Klafke  |  Davi Goulart  |  Dominique Lewis  |  Enrico Fava  |  Fernanda Spiller  |  Fernando Portella  |  Gabriel Querne  |  Gabriel de Bem  |  Gabriela Pereira  |  Gilberto Martini  |  Giulliano Bettiol  |  Gladys Taparello  |  Gustavo Garcia  |  Ianka Martins  |  Isadora Fontenelle  |  Jamile Bastiani  |  Julia Stefens  |  Julian Vargas  |  Juliano Miotto  |  Juliano Moriggi  |  Kariny Cândido  |  Larissa Adriano  |  Lucas Gogolevsky  |  Luisa Piccolo Serafim  |  Marcella Schneider  |  Marco Aurélio Bittencourt  |  Maria Candelária Ryberg  |  Maria Eduarda Cortezini  |  Mariana Franco  |  Mariana Pfleger  |  Mauricio Storch  |  Natália Queiroz  |  Paulo Crocomo  |  Rafael Selhorst  |  Tathiana Spacek  |  Thales Resende  |  Uirá Duarte  |  Venancio Perin  |  Yuri Assis
           </p>
         </div>
 

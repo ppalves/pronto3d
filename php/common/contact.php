@@ -31,10 +31,10 @@
                 <p>pronto3d@gmail.com</p>
               </div>
 
-              <div>
+              <!-- <div>
                 <i class="ion-ios-telephone-outline"></i>
                 <p>+55 048 3721-8294</p>
-              </div>
+              </div> -->
 
             </div>
           </div>
